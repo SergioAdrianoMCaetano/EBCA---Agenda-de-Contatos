@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #e6e6fa;
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 76px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    /*width: auto;
+    max-width: auto;*/
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input{
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #690069;
+}
+
+form button{
+    background-color: #690069;
+    color: white;
+    font-size: 14px;
+    width: 12%;
+    font-weight: bold;
+    border: none;
+    cursor: pointer; 
+}
+
+table {
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid #690069;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+} 
+
+table td{
+    padding: 8px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(62, 0, 68, 0.2)
+}
+
+
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
